@@ -18,8 +18,10 @@ class Home extends StatelessWidget {
   }
 
   void printHello() {
+
     if (kDebugMode) {
       print('Hello');
     }
+
   }
 }
