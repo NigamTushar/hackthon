@@ -11,6 +11,12 @@ class Home extends StatelessWidget {
     return const Placeholder();
   }
 
+  void callX() {
+    if (kDebugMode) {
+      print('CallX');
+    }
+  }
+
   void printHello() {
     if (kDebugMode) {
       print('Hello');
